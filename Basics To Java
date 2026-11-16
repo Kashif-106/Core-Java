@@ -1,0 +1,95 @@
+01 · INTRODUCTION TO JAVA
+Why was Java created?
+1991 — Green Project
+James Gosling and a small team at Sun Microsystems explore software for consumer devices.
+1991 — Named "Oak"
+The new language is named after an oak tree outside Gosling's office.
+1992 — Star7 demo
+A handheld prototype (?) shows Oak code running on custom hardware.
+1995 — Renamed Java
+"Oak" is already trademarked; Java is publicly announced in May 1995.
+1996 — JDK 1.0
+First official release (January 1996) — Java's mainstream...
+The problem
+Devices used different chips and operating systems. A C/C++ program had to be recompiled — often rewritten — for each one.
+
+➡️
+The idea: Write Once, Run Anywhere
+Compile once into portable bytecode. Any device with a Java Virtual Machine (JVM) can run it — no rewrite needed.
+
+
+
+How Java Evolved: 30 Years of Steady Upgrades
+Java has continuously evolved over the years through regular updates. Each major version introduced new features, improved performance and security, and made programming easier.
+Java Versions and Their Features
+1. Java 1.0 — January 1996
+- JVM (Java Virtual Machine)
+- Core libraries
+- Applets
+- Introduced the concept of "Write Once, Run Anywhere."
+2. Java 5 — September 2004
+- Generics
+- Annotations
+- Enums
+- Enhanced for loop
+3. Java 8 — May 2014
+- Lambda expressions
+- Stream API
+- New Date/Time API
+4. Java 11 — September 2018
+- First LTS (Long-Term Support) release of the 6-month release era
+- Standard HTTP Client
+5. Java 17 — September 2021
+- Records
+- Sealed classes
+- Text blocks
+- Spring Boot 3 baseline
+6. Java 21 — September 2023
+- Virtual threads
+- Pattern matching for switch
+- Record patterns
+7. Java 25 — September 2025
+- Compact source files
+- Scoped values
+- Compact object headers
+Important Point
+LTS — Long-Term Support
+LTS (Long-Term Support) is a Java version that receives long-term updates and support.
+Remember
+Java has continuously evolved by:
+- Introducing new features
+- Improving performance
+- Improving security
+- Simplifying programming
+In short: Java started with the goal of "Write Once, Run Anywhere" and has continuously improved through new versions and features.
+
+
+
+numeric data types - byte,short,int,long,float,double
+Boolean - true ,false 
+
+Primitive Data Types-byte,short,int,long,float,double,boolean,char
+Non-Primitive Data Types - String,Array,Class,interface
+
+variables rules
+1. Must start with a letter, underscore (_) or dollar sign ($).
+2. Cannot start with a number.
+3. Cannot contain spaces.
+4. Special characters are not allowed, except _ and $.
+5. Java keywords cannot be used as variable names.
+6. Variable names are case-sensitive.
+7. Can contain letters, digits, underscores and dollar signs after the first character.
+8. Variable names can be of any length.
+
+
+
+
+
+
+
+
+
+
+
+
+
