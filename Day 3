@@ -1,1 +1,27 @@
+## 1. length()
+Returns the number of characters in a String.
 
+```java
+String s = "Java";
+System.out.println(s.length());
+```
+
+Output: `4`
+
+## 2. charAt()
+Returns the character at a specified index.
+
+```java
+String s = "Java";
+System.out.println(s.charAt(1));
+```
+
+Output: `'a'`
+
+## 3. toUpperCase()
+Converts all characters into uppercase.
+
+```java
+String s = "java";
+System.out.println(s.toUpperCase());
+```
