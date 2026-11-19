@@ -1,1 +1,14 @@
+extract by index:
+str="venu"
+substring()   str.substring(0,4)
+indexof()     str.indexof("v")
+
+compare:
+
+equals() 
+compareTo()   
+str.equals(str1)
+          ("venu")
+str.compareTo(str)
+          ("varsh")
 
