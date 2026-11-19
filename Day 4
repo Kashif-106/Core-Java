@@ -1,14 +1,67 @@
-extract by index:
-str="venu"
-substring()   str.substring(0,4)
-indexof()     str.indexof("v")
+------------------------------STRING PROGRAM-----------------------
+import java.util.*;
 
-compare:
+class Strings {
+    public static void main(String[] args) {
 
-equals() 
-compareTo()   
-str.equals(str1)
-          ("venu")
-str.compareTo(str)
-          ("varsh")
+        Scanner sc = new Scanner(System.in);
+
+        String str = sc.nextLine();
+
+        String o = new String("hi");
+        System.out.println(o + " " + str);
+
+        String o1 = new String("linges");
+
+        for (int i = 0; i < o1.length(); i++) {
+            System.out.println(o1.charAt(i));
+        }
+
+        System.out.println("Length: " + o1.length());
+        System.out.println("Uppercase: " + o1.toUpperCase());
+        System.out.println("Lowercase: " + o1.toLowerCase());
+        System.out.println("Trim: " + o1.trim());
+
+        sc.close();
+    }
+}
+->>output:
+jaswanth
+hi jaswanth
+l
+i
+n
+g
+e
+s
+Length: 6
+Uppercase: LINGES
+Lowercase: linges
+Trim: linges
+
+***INSPECT- length(), charAt(),isEmpty(),isBlank()
+-> Etract by index:
+subString()  -> str.subString(0,4)
+indexof()  -> str.indexof()
+
+*****compare****
+equals() -> str.equals(str)
+compareTo() -> str.compareTo(str)
+
+**Find
+contains() -> str.contains("@")
+Startswith() -> str.startsWith("L")
+endsWith() -> str.endsWith("Reddy")
+
+**Transform
+1. trim() -> str.trim()
+2. strip() -> str.trip()
+3. concate() ->  str.concate("HOW")
+4.repeat() -> str.repeat(3)
+5. replace() -> str.replace('a','o')
+6. replaceall() -> str.replaceall()
+7. replaceFirst() -> str.replaceFirst("h")
+8.split() -> str.split(",")
+9. join() -> str.join("1", str1)
+10. valueOf() -> str.valueOf(3)
 
